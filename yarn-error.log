@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/swarosky44/.nvm/versions/node/v16.16.0/bin/node /Users/swarosky44/.nvm/versions/node/v16.16.0/bin/yarn add hardhat
+
+PATH: 
+  /Users/swarosky44/.nvm/versions/node/v16.16.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:692:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1587:19)
+      at TLSSocket.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "upgradeable_demo",
+    "version": "1.0.0",
+    "description": "upgradeable",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "solidity",
+      "upgradeable"
+    ],
+    "author": "swarosky44",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
